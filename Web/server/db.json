@@ -1,0 +1,141 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Nigiri"
+    },
+    {
+      "id": 2,
+      "name": "Maki"
+    },
+    {
+      "id": 3,
+      "name": "Sashimi"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "victor",
+      "email": "victor123@email.com",
+      "password": "asdasd123",
+      "role": "Admin",
+      "phoneNumber": "0812 3456 7890",
+      "address": "Jl. Hacktiv8"
+    },
+    {
+      "id": 2,
+      "username": "christopher",
+      "email": "christopher123@email.com",
+      "password": "asdasd123",
+      "role": "Staff",
+      "phoneNumber": "0812 3456 7891",
+      "address": "Jl. Hacktiv9"
+    }
+  ],
+  "items": [
+    {
+      "name": "Maki Sushi",
+      "description": "Fresh rolled maki sushi with the best ingredients and best quality of seaweed.",
+      "price": 50000,
+      "imgUrl": "https://cdn.britannica.com/52/128652-050-14AD19CA/Maki-zushi.jpg",
+      "categoryId": 2,
+      "createdAt": "2023-08-08T08:27:15.999Z",
+      "updatedAt": "2023-08-08T08:27:15.999Z",
+      "authorId": 1,
+      "id": 1
+    },
+    {
+      "name": "Mekajiki Sashimi",
+      "description": "Perfectly sliced swordfish topped with sprinkles of lemon juice.",
+      "price": 70000,
+      "imgUrl": "https://www.zairyo.com.sg//image/cache/catalog/product-listing/Mekajiki-03-850x885.jpg",
+      "categoryId": 3,
+      "createdAt": "2023-08-08T08:30:13.213Z",
+      "updatedAt": "2023-08-08T08:30:13.213Z",
+      "id": 2
+    },
+    {
+      "name": "Sushi",
+      "description": "This sushi is very delicious! A must try!",
+      "price": 50000,
+      "imgUrl": "https://www.licious.in/blog/wp-content/uploads/2022/04/shutterstock_1617156526-min.jpg",
+      "categoryId": 1,
+      "createdAt": "2023-08-08T08:30:59.648Z",
+      "updatedAt": "2023-08-08T08:30:59.648Z",
+      "id": 3
+    },
+    {
+      "name": "Tuna sashimi",
+      "description": "The best tuna sashimi you'll ever eat",
+      "price": 80000,
+      "imgUrl": "https://foodieandwine.com/wp-content/uploads/2023/01/tuna-sashimi-2.jpg",
+      "categoryId": 3,
+      "createdAt": "2023-08-10T08:24:40.796Z",
+      "updatedAt": "2023-08-10T08:24:40.796Z",
+      "id": 4
+    },
+    {
+      "name": "Tuna sashimi",
+      "description": "The best tuna sashimi you'll ever eat!",
+      "price": 800000,
+      "imgUrl": "https://foodieandwine.com/wp-content/uploads/2023/01/tuna-sashimi-2.jpg",
+      "categoryId": null,
+      "createdAt": "2023-08-10T09:02:33.510Z",
+      "updatedAt": "2023-08-10T09:02:33.510Z",
+      "id": 5
+    },
+    {
+      "name": "Tuna Sashimi",
+      "description": "Very fresh and delicious tuna",
+      "price": 90000,
+      "imgUrl": "https://foodieandwine.com/wp-content/uploads/2023/01/tuna-sashimi-2.jpg",
+      "categoryId": 3,
+      "createdAt": "2023-08-10T08:30:18.530Z",
+      "updatedAt": "2023-08-10T08:30:18.530Z",
+      "id": 6
+    }
+  ],
+  "ingredients": [
+    {
+      "id": 1,
+      "itemId": 1,
+      "name": "Rice"
+    },
+    {
+      "id": 2,
+      "itemId": 1,
+      "name": "Salmon"
+    },
+    {
+      "id": 3,
+      "itemId": 1,
+      "name": "Seaweed"
+    },
+    {
+      "id": 4,
+      "itemId": 2,
+      "name": "Sword Fish"
+    },
+    {
+      "id": 5,
+      "itemId": 2,
+      "name": "Lemon Juice"
+    },
+    {
+      "id": 6,
+      "itemId": 3,
+      "name": "Rice"
+    },
+    {
+      "id": 7,
+      "itemId": 3,
+      "name": "Salmon"
+    },
+    {
+      "id": 8,
+      "itemId": 3,
+      "name": "Avocado"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+services:
+  app-service:
+    build: ./services/app
+    ports:
+      - "4002:4002"
+    environment:
+      - DATABASE_URL=${SUPABASE_URI}
+  user-service:
+    build: ./services/users
+    ports:
+      - "4001:4001"
+    environment:
+      - MONGO_URI=${MONGO_URI}
+  orchestrator:
+    build: ./orchestrator-graphQL
+    ports:
+      - "80:4000"
+    environment:
+      - HOST_USER=http://user-service:4001
+      - HOST_MAIN_ENTITY=http://app-service:4002
+      - REDIS_PORT=${REDIS_PORT}
+      - REDIS_HOST=${REDIS_HOST}
+      - REDIS_USERNAME=${REDIS_USERNAME}
+      - REDIS_PASSWORD=${REDIS_PASSWORD}

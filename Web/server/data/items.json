@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Maki Sushi",
+    "description": "Fresh rolled maki sushi with the best ingredients and best quality of seaweed.",
+    "price": 50000,
+    "imgUrl": "https://cdn.britannica.com/52/128652-050-14AD19CA/Maki-zushi.jpg",
+    "categoryId": 1,
+    "authorId": 1
+  },
+  {
+    "name": "Mekajiki Sashimi",
+    "description": "Perfectly sliced swordfish topped with sprinkles of lemon juice.",
+    "price": 70000,
+    "imgUrl": "https://oosterbay.com/wp-content/uploads/2022/03/Mekajiki.jpg",
+    "categoryId": 2,
+    "authorId": 1
+  },
+  {
+    "name": "Avocado Salmon Sushi",
+    "description": "This sushi is very delicious! A must try!",
+    "price": 50000,
+    "imgUrl": "https://www.licious.in/blog/wp-content/uploads/2022/04/shutterstock_1617156526-min.jpg",
+    "categoryId": 3,
+    "authorId": 1
+  }
+]

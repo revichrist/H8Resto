@@ -1,0 +1,18 @@
+[
+  {
+    "username": "victor",
+    "email": "victor123@email.com",
+    "password": "asdasd123",
+    "role": "Admin",
+    "phoneNumber": "0812 3456 7890",
+    "address": "Jl. Hacktiv8"
+  },
+  {
+    "username": "christopher",
+    "email": "christopher123@email.com",
+    "password": "asdasd123",
+    "role": "Staff",
+    "phoneNumber": "0812 3456 7891",
+    "address": "Jl. Hacktiv9"
+  }
+]

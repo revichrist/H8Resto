@@ -1,0 +1,24 @@
+a{
+  cursor: pointer
+}
+
+.card-image{
+  width: 100%;
+  height: 300px !important;
+  object-fit: cover;
+  object-position: center;
+}
+
+.under-construction-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15vh;
+}
+
+.under-construction-image {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
